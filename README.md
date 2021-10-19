@@ -34,7 +34,7 @@ The conservation score is calculated by using RE as follows:
 
 <img width="1440" alt="image01_cons-re" src="https://user-images.githubusercontent.com/83740080/137861859-014ae727-6ed0-46f4-8a38-624deca3e9d6.png">
 
-where ***p*** is the amino acid probability of site ***C*** and ***q*** is a previously given back ground distribution. ⚠️NOTE that gaps are ignored when it constructs a site distribution. 
+where ***p*** is the amino acid probability of site ***C*** and ***q*** is a previously given background distribution. ⚠️NOTE that gaps are ignored when it constructs a site distribution. 
 
 ### Sequence weighting 
 This program supports two types of sequence weighting: 

@@ -88,7 +88,7 @@ Number`\t`Conservation score`\t`Composition of the site
 
 [e.g.]
 
-(image)
+<img width="1016" alt="image03_cons-re" src="https://user-images.githubusercontent.com/83740080/137862540-88840b76-e983-44bf-bcc3-e7ef09abec50.png">
 
 ## References 
 1. Wang, Kai, and Ram Samudrala. "Incorporating background frequency improves entropy-based residue conservation measures." BMC bioinformatics 7.1 (2006): 1-8.

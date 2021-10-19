@@ -78,7 +78,7 @@ Major arguments:
 [e. g.]
 
 ```
-% ./cons-re -i input.fasta -o output.txt -v va -c yes -t no
+% ./cons-re -i input.fasta -o output.txt -w va -c yes -t no
 ```
 Type `-h` to see other available options.
 

@@ -32,7 +32,7 @@ Then the object file will be generated in `./target/release` directory.
 ### Conservation score 
 The conservation score is calculated by using RE as follows: 
 
-(image) 
+<img width="1440" alt="image01_cons-re" src="https://user-images.githubusercontent.com/83740080/137861859-014ae727-6ed0-46f4-8a38-624deca3e9d6.png">
 
 where ***p*** is the amino acid probability of site ***C*** and ***q*** is a previously given back ground distribution. ⚠️NOTE that gaps are ignored when it constructs a site distribution. 
 

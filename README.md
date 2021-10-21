@@ -54,8 +54,10 @@ RE requires a background distribution. In this program, there are three types of
 
 1. BLOSUM62 
 2. AA composition of Swiss-Prot (from UniProt Knowledge Base) 
-3. Non-biassed distribution (equal rate at 0.05)  
-
+3. AA composition in extracellular proteins 
+4. AA composition in membrane proteins
+5. AA composition in intracellular proteins
+6. Non-biassed distribution (equal rate at 0.05)  
 
 Gaps are ignored as well as site distributions.  
 

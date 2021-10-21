@@ -55,6 +55,9 @@ impl Options {
 			"blosum62"  => (),
 			"equal"     => (),
 			"swissprot" => (),
+			"extra"     => (),
+			"membrane"  => (),
+			"intra"     => (),
 			_           => show_usage( &argv[ 0 ] ),
 		}
 

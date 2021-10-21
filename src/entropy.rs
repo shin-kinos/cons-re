@@ -70,7 +70,7 @@ fn weighted_freq_count( site : &Vec<char>, weight_list : &Vec<f64> ) -> HashMap<
 {
 	let len_site : usize = ( *site ).len();
 
-	/* Define the pseudocount (10e-7). */
+	/* Define the pseudocount (10e-8). */
 	let pseudo_count : f64 = 0.0000001;
 
 	/* Define a hashmap to count AA frequency in a site. */

@@ -96,8 +96,8 @@ fn show_usage( arg : &String )
 	println!( "    -i    Input filename in aligned Multi-FASTA format, REQUIRED." );
 	println!( "    -o    Onput filename, REQUIRED." );
 	println!( "    -w    Method of sequence weighting ('hen' or 'va', default 'hen').\n              hen : Position-Based method by Henikoff and Henikoff\n              va  : Distance-Based method by Vingron and Argos" );
-	println!( "    -t    Tolerate non-standard AA types (such as B, Z and X) in input file ('yes' or 'no', default 'yes').\n              yes : All non-standard AAs are converted to gaps.\n              no  : The program halts if the input file includes non-standard AA types." );
-	println!( "    -b    Back ground distribution in the relative entropy (default 'blosum62').\n              blosum62  : BLOSUM62\n              swissprot : AA composition of Swiss-Prot\n              equal     : No background distribution, equal rate (= 0.05)" );
+	println!( "    -t    Tolerate non-standard AA types (such as B, Z and X) in input file ('yes' or 'no', default 'yes').\n              yes : All non-standard AAs are converted to gaps.\n              no  : The program halts if the input file includes non-standard AA types." ); 
+	println!( "    -b    Back ground distribution in the relative entropy (default 'blosum62').\n              blosum62  : BLOSUM62\n              swissprot : AA composition of Swiss-Prot\n              equal     : No background distribution, equal rate (= 0.05)\n              extra     : AA composition in extracellular proteins\n              membrane  : AA composition in membrane proteins\n              intra     : AA composition in intracellular proteins" );
 	println!( "    -c    Colorize each AA displayed on the terminal based on their stereochemical properties ('yes' or 'no', default 'no')."  );
 	println!( "    -h    Print this help, ignore all other arguments." );
 	println!( "\n" );

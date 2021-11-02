@@ -22,7 +22,7 @@ You can compile this program by using `Cargo`. 📦🦀
 [e. g.] 
 
 ``` 
-% cd cons-re-main
+% cd cons-wang06-main
 % cargo build --release
 ``` 
 Then the object file will be generated in `./target/release` directory. 

@@ -57,7 +57,10 @@ RE requires a background distribution. In this program, there are three types of
 3. AA composition in extracellular proteins 
 4. AA composition in membrane proteins
 5. AA composition in intracellular proteins
-6. Non-biassed distribution (equal rate at 0.05)  
+6. JTT
+7. WAG
+8. LG
+9. Non-biassed distribution (equal rate at 0.05)  
 
 Gaps are ignored as well as site distributions.  
 

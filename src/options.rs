@@ -53,11 +53,14 @@ impl Options {
 
 		match ( *arg_b ).as_str() {
 			"blosum62"  => (),
-			"equal"     => (),
 			"swissprot" => (),
 			"extra"     => (),
 			"membrane"  => (),
 			"intra"     => (),
+			"jtt"       => (),
+			"wag"       => (),
+			"lg"        => (),
+			"equal"     => (),
 			_           => show_usage( &argv[ 0 ] ),
 		}
 
@@ -97,7 +100,16 @@ fn show_usage( arg : &String )
 	println!( "    -o    Onput filename, REQUIRED." );
 	println!( "    -w    Method of sequence weighting ('hen' or 'va', default 'hen').\n              hen : Position-Based method by Henikoff and Henikoff\n              va  : Distance-Based method by Vingron and Argos" );
 	println!( "    -t    Tolerate non-standard AA types (such as B, Z and X) in input file ('yes' or 'no', default 'yes').\n              yes : All non-standard AAs are converted to gaps.\n              no  : The program halts if the input file includes non-standard AA types." ); 
-	println!( "    -b    Back ground distribution in the relative entropy (default 'blosum62').\n              blosum62  : BLOSUM62\n              swissprot : AA composition of Swiss-Prot\n              equal     : No background distribution, equal rate (= 0.05)\n              extra     : AA composition in extracellular proteins\n              membrane  : AA composition in membrane proteins\n              intra     : AA composition in intracellular proteins" );
+	println!( "    -b    Back ground distribution in the relative entropy (default 'blosum62').
+              blosum62  : BLOSUM62
+              swissprot : Swiss-Prot
+              extra     : AA composition in extracellular proteins
+              membrane  : AA composition in membrane proteins
+              intra     : AA composition in intracellular proteins
+              jtt       : JTT
+              wag       : WAG
+              lg        : LG
+              equal     : No background distribution, equal rate (= 0.05)" );
 	println!( "    -c    Colorize each AA displayed on the terminal based on their stereochemical properties ('yes' or 'no', default 'no')."  );
 	println!( "    -h    Print this help, ignore all other arguments." );
 	println!( "\n" );

@@ -1,4 +1,4 @@
-# cons-re 
+# cons-wang06 
 A Rust program that calculates conservation score a site in Multiple Sequence Alignment (MSA) by Relative Entropy. 
 
 ## Description 

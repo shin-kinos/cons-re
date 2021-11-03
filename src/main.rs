@@ -17,7 +17,7 @@ fn main()
 	println!( "Wang, Kai, and Ram Samudrala. \"Incorporating background frequency improves entropy-based residue conservation measures.\" BMC bioinformatics 7.1 (2006)." );
 
 	/* Elapsed time : Start */
-	let time = Instant::now();
+	let start = Instant::now();
 
 	/* Set options. */
 	let opts = options::Options::new();

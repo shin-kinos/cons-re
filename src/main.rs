@@ -83,6 +83,7 @@ fn main()
 	println!( "{}", "\nProgram completed !!!\n".green() );
 
 	/* Elapsed time : End */
-	println!( "Total elapsed time (sec) : {}.{:.3}", time.elapsed().as_secs(), time.elapsed().subsec_nanos() / 1_000_000 );
+	let end = start.elapsed();
+	println!( "Total elapsed time : {:?}", end );
 }
 

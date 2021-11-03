@@ -52,14 +52,14 @@ where ***L*** is the length of a site (or number of the sequences in MSA). The g
 ### Back ground distribution 
 RE requires a background distribution. In this program, there are three nine of background distributions you can choose: 
 
-1. BLOSUM62 
+1. BLOSUM62 [4] 
 2. AA composition of Swiss-Prot (from UniProt Knowledge Base) 
-3. AA composition in extracellular proteins 
-4. AA composition in membrane proteins
-5. AA composition in intracellular proteins
-6. JTT
-7. WAG
-8. LG
+3. AA composition in extracellular proteins [5]
+4. AA composition in membrane proteins [5]
+5. AA composition in intracellular proteins [5] 
+6. JTT [6] 
+7. WAG [7] 
+8. LG [8] 
 9. Non-biassed distribution (equal rate at 0.05)  
 
 Gaps are ignored as well as site distributions.  
@@ -98,4 +98,10 @@ Number`\t`Conservation score`\t`Composition of the site
 ## References 
 1. Wang, Kai, and Ram Samudrala. "Incorporating background frequency improves entropy-based residue conservation measures." BMC bioinformatics 7.1 (2006): 1-8.
 2. Henikoff, Steven, and Jorja G. Henikoff. "Position-based sequence weights." Journal of molecular biology 243.4 (1994): 574-578. 
-3. Vingron, Martin, and Patrick Argos. "A fast and sensitive multiple sequence alignment algorithm." Bioinformatics 5.2 (1989): 115-121.
+3. Vingron, Martin, and Patrick Argos. "A fast and sensitive multiple sequence alignment algorithm." Bioinformatics 5.2 (1989): 115-121. 
+4. Henikoff, Steven, and Jorja G. Henikoff. "Amino acid substitution matrices from protein blocks." Proceedings of the National Academy of Sciences 89.22 (1992): 10915-10919. 
+5. Cedano, Juan, et al. "Relation between amino acid composition and cellular location of proteins." Journal of molecular biology 266.3 (1997): 594-600. 
+6. Jones, David T., William R. Taylor, and Janet M. Thornton. "The rapid generation of mutation data matrices from protein sequences." Bioinformatics 8.3 (1992): 275-282. 
+7. Whelan, Simon, and Nick Goldman. "A general empirical model of protein evolution derived from multiple protein families using a maximum-likelihood approach." Molecular biology and evolution 18.5 (2001): 691-699. 
+8. Le, Si Quang, and Olivier Gascuel. "An improved general amino acid replacement matrix." Molecular biology and evolution 25.7 (2008): 1307-1320. 
+

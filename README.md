@@ -49,7 +49,7 @@ The gap penalties are given as follows:
 
 where ***L*** is the length of a site (or number of the sequences in MSA). The gap penalty of site ***i*** is given by calculating sum of weighting factors assigned to the gaps in sequence ***j***. 
 
-### Back ground distribution 
+### Background distribution 
 RE requires a background distribution. In this program, there are nine background distributions you can choose: 
 
 1. BLOSUM62 [4] 
